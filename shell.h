@@ -3,5 +3,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
 
-/* SHELL_H */
+void execmd(char **argv);
+#endif /* SHELL_H */
